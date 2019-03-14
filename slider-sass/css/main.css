@@ -1,12 +1,72 @@
-p {
-  color: violet;
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
-div > p {
-  color: green;
+.hidden {
+  display: none;
 }
 
-div > p {
-  color: saddlebrown;
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  width: 100%;
+}
+
+div.navbar-fluid {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+div.navbar-fluid > section.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.navbar-fluid > section.navbar > nav.main-nav > ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: none;
+          flex-direction: none;
+}
+
+div.navbar-fluid > section.navbar > nav.main-nav > ul > li {
+  margin-right: 20px;
+}
+
+div.navbar-fluid > section.navbar > nav.main-nav > ul > li > a {
+  padding: 4px 8px;
+  background-color: aquamarine;
+  text-decoration: none;
+  color: sandybrown;
+}
+
+div.navbar-fluid > section.navbar > nav.main-nav > ul > li:last-child {
+  margin-right: 0;
+}
+
+slider {
+  background-color: aqua;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,10 +1,8 @@
 {
     "version": 3,
-    "mappings": "ACEA,AAAA,GAAG,CAAA;EACA,gBAAgB,EAAE,aAAa;CAIjC;;AALD,AAEG,GAFA,CAEA,CAAC,CAAA;EACE,KAAK,EALK,KAAK;CAMjB;;ACNJ,AAAA,MAAM,CAAA;EACH,gBAAgB,EAAE,IAAI;CACxB",
+    "mappings": "AACA,AAAA,CAAC,CAAA;EACE,KAAK,EAAC,MAAM;CACd",
     "sources": [
-        "main.scss",
-        "_navbar.scss",
-        "_slider.scss"
+        "main.scss"
     ],
     "names": [],
     "file": "main.css"

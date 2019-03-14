@@ -1,4 +1,12 @@
 p {
   color: violet;
 }
+
+div > p {
+  color: green;
+}
+
+div > p {
+  color: saddlebrown;
+}
 /*# sourceMappingURL=main.css.map */
